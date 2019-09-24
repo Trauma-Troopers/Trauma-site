@@ -1,0 +1,11 @@
+/* Main Content */
+
+/* Flex Styles */
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
