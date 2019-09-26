@@ -1,11 +1,70 @@
 /* Main Content */
+.jumbotron {
+    text-align: center;
+    
+}
 
+.jumbotron > * {
+    margin: 35px;
+}
+
+.card-body{
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 /* Flex Styles */
+.main-nav{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
 .main-content{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 25px;
+    padding: 50px;
 }
 
+/* Profile Information */
+.profile-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.profile-img img {
+    border-radius: 12px 12px ;
+    margin: 65px;
+}
+
+
+.bio-section{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 35px;
+}
+
+.bio-section h2,h4 {
+    margin: 35px;
+}
+
+/* footer */
+.footer {
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.footer li {
+    display: inline-block; 
+    padding: 25px;
+}
