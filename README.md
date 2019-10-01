@@ -1,3 +1,8 @@
 # Trauma-site
 
-Basic Build for the Capstone Project to Feature Design, and Project Details for our Sponsors or anyone interested in what we are developing.
+Capstone Site Build for Our Sponsors Which Features
+
+* Project Details for our Sponsors or anyone interested in what we are developing
+* Projected Time Lines 
+* Biographies
+* Development Strategies
