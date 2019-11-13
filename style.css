@@ -4,7 +4,8 @@
 }
 
 .jumbotron > * {
-  margin: 35px;
+  margin-top: 0 !important; 
+
 }
 
 .card-body {
@@ -60,6 +61,45 @@
 
 .contact-content-centered div {
   width: 60%;
+  height: 100px;
+}
+
+/*These jumbotrons could be condensed into a single one that would wrap text if I were not lazy.= */
+.jumbotron_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.jumbotron_content> * {
+  margin-top: 10%; 
+  margin-bottom: 7%;
+}
+
+.jumbotron_content div {
+  width: 75%;
+  height: 100px;
+}
+
+.jumbotron_content_contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.jumbotron_content_contact > * {
+  margin-top: 10%; 
+  margin-bottom: 2%;
+}
+
+.jumbotron_content_contact div {
+  width: 75%;
   height: 100px;
 }
 
